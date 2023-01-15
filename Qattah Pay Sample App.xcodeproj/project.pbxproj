@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B02BF18183F356EEEC85575 /* Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D27A1E6E7498EA0D11BCB0 /* Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework */; };
+		A677F26B61A1508D024A09BD /* Qattah_Pay_Sample_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F3DF675A9B3189FBFD7B /* Qattah_Pay_Sample_AppUITestsLaunchTests.swift */; };
+		A677F30406B0DBE14D35D60E /* MainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F7D8EE22664B89298908 /* MainRepository.swift */; };
+		A677F36AB4181FC928DE55BC /* Qattah_Pay_Sample_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F13C57D4F7228D72B304 /* Qattah_Pay_Sample_AppUITests.swift */; };
+		A677F481DA1206A3602628FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A677F3CD031684AA63FC4576 /* Preview Assets.xcassets */; };
+		A677F6FF48B817C330FB7922 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F49038BD399E4786F6F2 /* Constants.swift */; };
+		A677F75F1B6332C2A0193C55 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F69750628AC8F10764FB /* Invoice.swift */; };
+		A677F77C04EEBC14B03D0767 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F1E67F2623D210C0C086 /* MainView.swift */; };
+		A677F7EFA3AE977D1D98E75B /* Qattah_Pay_Sample_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677FEBB1BBF70CD0F93CE1B /* Qattah_Pay_Sample_AppTests.swift */; };
+		A677F9531C33D8B54C2D0371 /* Qattah_Pay_Sample_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F47838B38EDF23CB747A /* Qattah_Pay_Sample_AppApp.swift */; };
+		A677FA211453FEF7FFA01496 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677F96F732031BAF8C68A3C /* MainViewModel.swift */; };
+		A677FB128DF0821569E82DC2 /* QattahRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677FD66EA074885D9280066 /* QattahRequest.swift */; };
+		A677FB6F1D73CCAE0F48D605 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677FE2DACD56DCFC27BE5A0 /* ApiService.swift */; };
+		A677FBEAB1F980CF19D4A23D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677FB814102B78AFDD896C4 /* WebView.swift */; };
+		A677FD194E2ACCDF7DC7C759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A677F32C4687F4D7CC7A421F /* Assets.xcassets */; };
+		A677FECD380B67AF6279DF38 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677FE89DEB752FA01A36D6E /* Order.swift */; };
+		D9652699917F03C10DA7E59B /* Pods_Qattah_Pay_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E027F21D3EFDEF085950AC4B /* Pods_Qattah_Pay_Sample_App.framework */; };
+		F4946AE328DAA613C07F2634 /* Pods_Qattah_Pay_Sample_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8458AA3609E0205908B2C9 /* Pods_Qattah_Pay_Sample_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A677FC2DE62FD496466F76C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A677F5CCAA591B620759CCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A677FCC851596AC2CEC4A520;
+			remoteInfo = "Qattah Pay Sample App";
+		};
+		A677FCA1D2DCB1581B03BA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A677F5CCAA591B620759CCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A677FCC851596AC2CEC4A520;
+			remoteInfo = "Qattah Pay Sample App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B2A4CF314138664F3021E8 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD1205E59F012E42CAE62AE /* Pods-Qattah Pay Sample AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample AppTests.release.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample AppTests/Pods-Qattah Pay Sample AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		31D27A1E6E7498EA0D11BCB0 /* Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB2BD3C54952788C7EAA848 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A57016EDD7A7E8C0305183B9 /* Pods-Qattah Pay Sample AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample AppTests/Pods-Qattah Pay Sample AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A677F13C57D4F7228D72B304 /* Qattah_Pay_Sample_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qattah_Pay_Sample_AppUITests.swift; sourceTree = "<group>"; };
+		A677F1E67F2623D210C0C086 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A677F32C4687F4D7CC7A421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A677F3CD031684AA63FC4576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A677F3DF675A9B3189FBFD7B /* Qattah_Pay_Sample_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qattah_Pay_Sample_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A677F47838B38EDF23CB747A /* Qattah_Pay_Sample_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qattah_Pay_Sample_AppApp.swift; sourceTree = "<group>"; };
+		A677F49038BD399E4786F6F2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A677F69750628AC8F10764FB /* Invoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		A677F7D8EE22664B89298908 /* MainRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRepository.swift; sourceTree = "<group>"; };
+		A677F96F732031BAF8C68A3C /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A677F9E1997193E57D738887 /* Qattah Pay Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qattah Pay Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A677FB5355075EA04912D461 /* Qattah Pay Sample AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qattah Pay Sample AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A677FB814102B78AFDD896C4 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A677FCE0C1DD14FE019F2978 /* Qattah Pay Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qattah Pay Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A677FD66EA074885D9280066 /* QattahRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QattahRequest.swift; sourceTree = "<group>"; };
+		A677FE2DACD56DCFC27BE5A0 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		A677FE89DEB752FA01A36D6E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A677FEBB1BBF70CD0F93CE1B /* Qattah_Pay_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qattah_Pay_Sample_AppTests.swift; sourceTree = "<group>"; };
+		CC8458AA3609E0205908B2C9 /* Pods_Qattah_Pay_Sample_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qattah_Pay_Sample_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E027F21D3EFDEF085950AC4B /* Pods_Qattah_Pay_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qattah_Pay_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F676BCB0F7BAE7BAD509FC18 /* Pods-Qattah Pay Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample App.release.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample App/Pods-Qattah Pay Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		FDF65BB73ED1F2F93EACACA2 /* Pods-Qattah Pay Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qattah Pay Sample App.debug.xcconfig"; path = "Target Support Files/Pods-Qattah Pay Sample App/Pods-Qattah Pay Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A677F0CE69404DF34714330F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02BF18183F356EEEC85575 /* Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F80AB699F2F5BD841D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9652699917F03C10DA7E59B /* Pods_Qattah_Pay_Sample_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F96E58D135C12D30CBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4946AE328DAA613C07F2634 /* Pods_Qattah_Pay_Sample_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5324DCAE2974BB650017AA54 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		89EB53BF252B6794C2F379AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF65BB73ED1F2F93EACACA2 /* Pods-Qattah Pay Sample App.debug.xcconfig */,
+				F676BCB0F7BAE7BAD509FC18 /* Pods-Qattah Pay Sample App.release.xcconfig */,
+				6DB2BD3C54952788C7EAA848 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.debug.xcconfig */,
+				17B2A4CF314138664F3021E8 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.release.xcconfig */,
+				A57016EDD7A7E8C0305183B9 /* Pods-Qattah Pay Sample AppTests.debug.xcconfig */,
+				2CD1205E59F012E42CAE62AE /* Pods-Qattah Pay Sample AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A677F00E09A2FDC96ACF14FC /* Qattah Pay Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				A677F32C4687F4D7CC7A421F /* Assets.xcassets */,
+				A677F815EA5AB4839DF05AF8 /* Preview Content */,
+				A677F47838B38EDF23CB747A /* Qattah_Pay_Sample_AppApp.swift */,
+				A677F53813CF1FA20DA5CBE6 /* model */,
+				A677F40DF939D462D432AAAB /* ui */,
+				A677FC5B42FF9B5F941E1C7E /* network */,
+				A677FD7EDCF80F995CD1D03B /* utils */,
+				A677F7D8EE22664B89298908 /* MainRepository.swift */,
+				A677F96F732031BAF8C68A3C /* MainViewModel.swift */,
+			);
+			path = "Qattah Pay Sample App";
+			sourceTree = "<group>";
+		};
+		A677F120F845CDB0E8199D91 = {
+			isa = PBXGroup;
+			children = (
+				5324DCAE2974BB650017AA54 /* Packages */,
+				A677F2669EC4A69476916281 /* Products */,
+				A677F00E09A2FDC96ACF14FC /* Qattah Pay Sample App */,
+				A677FA3EBCDF859D672420FE /* Qattah Pay Sample AppTests */,
+				A677FC434FA831E300E7D064 /* Qattah Pay Sample AppUITests */,
+				89EB53BF252B6794C2F379AB /* Pods */,
+				FE1BF20268AF7A333EC3887D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A677F2669EC4A69476916281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A677FCE0C1DD14FE019F2978 /* Qattah Pay Sample App.app */,
+				A677F9E1997193E57D738887 /* Qattah Pay Sample AppTests.xctest */,
+				A677FB5355075EA04912D461 /* Qattah Pay Sample AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A677F40DF939D462D432AAAB /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				A677FB814102B78AFDD896C4 /* WebView.swift */,
+				A677F1E67F2623D210C0C086 /* MainView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		A677F53813CF1FA20DA5CBE6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A677FE89DEB752FA01A36D6E /* Order.swift */,
+				A677F69750628AC8F10764FB /* Invoice.swift */,
+				A677FD66EA074885D9280066 /* QattahRequest.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A677F815EA5AB4839DF05AF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A677F3CD031684AA63FC4576 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A677FA3EBCDF859D672420FE /* Qattah Pay Sample AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A677FEBB1BBF70CD0F93CE1B /* Qattah_Pay_Sample_AppTests.swift */,
+			);
+			path = "Qattah Pay Sample AppTests";
+			sourceTree = "<group>";
+		};
+		A677FC434FA831E300E7D064 /* Qattah Pay Sample AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A677F13C57D4F7228D72B304 /* Qattah_Pay_Sample_AppUITests.swift */,
+				A677F3DF675A9B3189FBFD7B /* Qattah_Pay_Sample_AppUITestsLaunchTests.swift */,
+			);
+			path = "Qattah Pay Sample AppUITests";
+			sourceTree = "<group>";
+		};
+		A677FC5B42FF9B5F941E1C7E /* network */ = {
+			isa = PBXGroup;
+			children = (
+				A677FE2DACD56DCFC27BE5A0 /* ApiService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		A677FD7EDCF80F995CD1D03B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A677F49038BD399E4786F6F2 /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		FE1BF20268AF7A333EC3887D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E027F21D3EFDEF085950AC4B /* Pods_Qattah_Pay_Sample_App.framework */,
+				31D27A1E6E7498EA0D11BCB0 /* Pods_Qattah_Pay_Sample_App_Qattah_Pay_Sample_AppUITests.framework */,
+				CC8458AA3609E0205908B2C9 /* Pods_Qattah_Pay_Sample_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A677F36E68B187CD2318E812 /* Qattah Pay Sample AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A677F0674BE3536722D9E52D /* Build configuration list for PBXNativeTarget "Qattah Pay Sample AppTests" */;
+			buildPhases = (
+				AA0824AD51BA969719D4DBF7 /* [CP] Check Pods Manifest.lock */,
+				A677F58AB1B82000864B33AA /* Sources */,
+				A677F96E58D135C12D30CBBB /* Frameworks */,
+				A677F3393910262DC27B0CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A677F9BCC411C0874EDE2534 /* PBXTargetDependency */,
+			);
+			name = "Qattah Pay Sample AppTests";
+			productName = "Qattah Pay Sample AppTests";
+			productReference = A677F9E1997193E57D738887 /* Qattah Pay Sample AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A677FCC851596AC2CEC4A520 /* Qattah Pay Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A677F62C13B58DF2F965532B /* Build configuration list for PBXNativeTarget "Qattah Pay Sample App" */;
+			buildPhases = (
+				59D4630BCFF5A886672C1B5E /* [CP] Check Pods Manifest.lock */,
+				A677F4AA8652F47146A134EE /* Sources */,
+				A677F80AB699F2F5BD841D7C /* Frameworks */,
+				A677F98FEA8AE0F59CC9D3D8 /* Resources */,
+				AE26FB963B21116BC30890D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qattah Pay Sample App";
+			productName = "Qattah Pay Sample App";
+			productReference = A677FCE0C1DD14FE019F2978 /* Qattah Pay Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A677FD36CAAE1B19B1443A86 /* Qattah Pay Sample AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A677FFD93479E82802DC87E7 /* Build configuration list for PBXNativeTarget "Qattah Pay Sample AppUITests" */;
+			buildPhases = (
+				5A6565D196C6917224D67B0F /* [CP] Check Pods Manifest.lock */,
+				A677F7041526F23EEB638223 /* Sources */,
+				A677F0CE69404DF34714330F /* Frameworks */,
+				A677F20437EA9942A65F3B37 /* Resources */,
+				910243F0E217164919D1A8D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A677F31D6393D74F63C089E2 /* PBXTargetDependency */,
+			);
+			name = "Qattah Pay Sample AppUITests";
+			productName = "Qattah Pay Sample AppUITests";
+			productReference = A677FB5355075EA04912D461 /* Qattah Pay Sample AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A677F5CCAA591B620759CCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = A677F65F2B6FEBB43684B1B8 /* Build configuration list for PBXProject "Qattah Pay Sample App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A677F120F845CDB0E8199D91;
+			productRefGroup = A677F2669EC4A69476916281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A677FCC851596AC2CEC4A520 /* Qattah Pay Sample App */,
+				A677F36E68B187CD2318E812 /* Qattah Pay Sample AppTests */,
+				A677FD36CAAE1B19B1443A86 /* Qattah Pay Sample AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A677F20437EA9942A65F3B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F3393910262DC27B0CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F98FEA8AE0F59CC9D3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677FD194E2ACCDF7DC7C759 /* Assets.xcassets in Resources */,
+				A677F481DA1206A3602628FE /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59D4630BCFF5A886672C1B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qattah Pay Sample App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6565D196C6917224D67B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910243F0E217164919D1A8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests/Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0824AD51BA969719D4DBF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qattah Pay Sample AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE26FB963B21116BC30890D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qattah Pay Sample App/Pods-Qattah Pay Sample App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qattah Pay Sample App/Pods-Qattah Pay Sample App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A677F4AA8652F47146A134EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677F9531C33D8B54C2D0371 /* Qattah_Pay_Sample_AppApp.swift in Sources */,
+				A677F6FF48B817C330FB7922 /* Constants.swift in Sources */,
+				A677FECD380B67AF6279DF38 /* Order.swift in Sources */,
+				A677F75F1B6332C2A0193C55 /* Invoice.swift in Sources */,
+				A677FB128DF0821569E82DC2 /* QattahRequest.swift in Sources */,
+				A677FBEAB1F980CF19D4A23D /* WebView.swift in Sources */,
+				A677F30406B0DBE14D35D60E /* MainRepository.swift in Sources */,
+				A677FB6F1D73CCAE0F48D605 /* ApiService.swift in Sources */,
+				A677F77C04EEBC14B03D0767 /* MainView.swift in Sources */,
+				A677FA211453FEF7FFA01496 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F58AB1B82000864B33AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677F7EFA3AE977D1D98E75B /* Qattah_Pay_Sample_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677F7041526F23EEB638223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677F36AB4181FC928DE55BC /* Qattah_Pay_Sample_AppUITests.swift in Sources */,
+				A677F26B61A1508D024A09BD /* Qattah_Pay_Sample_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A677F31D6393D74F63C089E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A677FCC851596AC2CEC4A520 /* Qattah Pay Sample App */;
+			targetProxy = A677FCA1D2DCB1581B03BA46 /* PBXContainerItemProxy */;
+		};
+		A677F9BCC411C0874EDE2534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A677FCC851596AC2CEC4A520 /* Qattah Pay Sample App */;
+			targetProxy = A677FC2DE62FD496466F76C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A677F0D57BE7D2521AFC6539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57016EDD7A7E8C0305183B9 /* Pods-Qattah Pay Sample AppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qattah Pay Sample App.app/Qattah Pay Sample App";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A677F18EA570D0E97AD0CC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF65BB73ED1F2F93EACACA2 /* Pods-Qattah Pay Sample App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qattah Pay Sample App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A677F53F8A1391CA92335A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A677F76960460E1A577E1EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD1205E59F012E42CAE62AE /* Pods-Qattah Pay Sample AppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qattah Pay Sample App.app/Qattah Pay Sample App";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		A677F855D567DF04F612A27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F676BCB0F7BAE7BAD509FC18 /* Pods-Qattah Pay Sample App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qattah Pay Sample App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A677F98D08CDB8AF12FD74B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB2BD3C54952788C7EAA848 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qattah Pay Sample App";
+			};
+			name = Debug;
+		};
+		A677FA3345CE5AC095BF84D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B2A4CF314138664F3021E8 /* Pods-Qattah Pay Sample App-Qattah Pay Sample AppUITests.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "qattahpay.sa.Qattah-Pay-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qattah Pay Sample App";
+			};
+			name = Release;
+		};
+		A677FCAE29DCFECA6284F555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A677F0674BE3536722D9E52D /* Build configuration list for PBXNativeTarget "Qattah Pay Sample AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677F0D57BE7D2521AFC6539 /* Debug */,
+				A677F76960460E1A577E1EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A677F62C13B58DF2F965532B /* Build configuration list for PBXNativeTarget "Qattah Pay Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677F18EA570D0E97AD0CC19 /* Debug */,
+				A677F855D567DF04F612A27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A677F65F2B6FEBB43684B1B8 /* Build configuration list for PBXProject "Qattah Pay Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677FCAE29DCFECA6284F555 /* Debug */,
+				A677F53F8A1391CA92335A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A677FFD93479E82802DC87E7 /* Build configuration list for PBXNativeTarget "Qattah Pay Sample AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677F98D08CDB8AF12FD74B3 /* Debug */,
+				A677FA3345CE5AC095BF84D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A677F5CCAA591B620759CCF9 /* Project object */;
+}
